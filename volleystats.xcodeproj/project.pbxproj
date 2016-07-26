@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2304809A1D47C77A0039A1CA /* Match.m in Sources */ = {isa = PBXBuildFile; fileRef = 230480991D47C77A0039A1CA /* Match.m */; };
+		230480A31D47DA6A0039A1CA /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230480A21D47DA6A0039A1CA /* SetupViewController.m */; };
+		230480A61D47E3AD0039A1CA /* PlayerDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230480A51D47E3AD0039A1CA /* PlayerDetailsViewController.m */; };
 		233AFB521D471CED00D17B20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 233AFB511D471CED00D17B20 /* main.m */; };
 		233AFB551D471CED00D17B20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 233AFB541D471CED00D17B20 /* AppDelegate.m */; };
 		233AFB581D471CED00D17B20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 233AFB571D471CED00D17B20 /* ViewController.m */; };
 		233AFB5B1D471CED00D17B20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233AFB591D471CED00D17B20 /* Main.storyboard */; };
 		233AFB5D1D471CED00D17B20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233AFB5C1D471CED00D17B20 /* Assets.xcassets */; };
 		233AFB601D471CED00D17B20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233AFB5E1D471CED00D17B20 /* LaunchScreen.storyboard */; };
+		233AFB691D471D1400D17B20 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 233AFB681D471D1400D17B20 /* Player.m */; };
+		233AFB6D1D47267F00D17B20 /* Set.m in Sources */ = {isa = PBXBuildFile; fileRef = 233AFB6C1D47267F00D17B20 /* Set.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		230480981D47C77A0039A1CA /* Match.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Match.h; sourceTree = "<group>"; };
+		230480991D47C77A0039A1CA /* Match.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Match.m; sourceTree = "<group>"; };
+		230480A11D47DA6A0039A1CA /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetupViewController.h; path = ../SetupViewController.h; sourceTree = "<group>"; };
+		230480A21D47DA6A0039A1CA /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetupViewController.m; path = ../SetupViewController.m; sourceTree = "<group>"; };
+		230480A41D47E3AD0039A1CA /* PlayerDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerDetailsViewController.h; sourceTree = "<group>"; };
+		230480A51D47E3AD0039A1CA /* PlayerDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerDetailsViewController.m; sourceTree = "<group>"; };
 		233AFB4D1D471CED00D17B20 /* volleystats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = volleystats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		233AFB511D471CED00D17B20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		233AFB531D471CED00D17B20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +37,10 @@
 		233AFB5C1D471CED00D17B20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		233AFB5F1D471CED00D17B20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		233AFB611D471CED00D17B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		233AFB671D471D1400D17B20 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		233AFB681D471D1400D17B20 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		233AFB6B1D47267F00D17B20 /* Set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Set.h; sourceTree = "<group>"; };
+		233AFB6C1D47267F00D17B20 /* Set.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Set.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +77,11 @@
 				233AFB541D471CED00D17B20 /* AppDelegate.m */,
 				233AFB561D471CED00D17B20 /* ViewController.h */,
 				233AFB571D471CED00D17B20 /* ViewController.m */,
+				230480A11D47DA6A0039A1CA /* SetupViewController.h */,
+				230480A21D47DA6A0039A1CA /* SetupViewController.m */,
+				230480A41D47E3AD0039A1CA /* PlayerDetailsViewController.h */,
+				230480A51D47E3AD0039A1CA /* PlayerDetailsViewController.m */,
+				233AFB6A1D47266900D17B20 /* MODEL */,
 				233AFB591D471CED00D17B20 /* Main.storyboard */,
 				233AFB5C1D471CED00D17B20 /* Assets.xcassets */,
 				233AFB5E1D471CED00D17B20 /* LaunchScreen.storyboard */,
@@ -77,6 +97,19 @@
 				233AFB511D471CED00D17B20 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		233AFB6A1D47266900D17B20 /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+				233AFB671D471D1400D17B20 /* Player.h */,
+				233AFB681D471D1400D17B20 /* Player.m */,
+				233AFB6B1D47267F00D17B20 /* Set.h */,
+				233AFB6C1D47267F00D17B20 /* Set.m */,
+				230480981D47C77A0039A1CA /* Match.h */,
+				230480991D47C77A0039A1CA /* Match.m */,
+			);
+			name = MODEL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +182,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				233AFB691D471D1400D17B20 /* Player.m in Sources */,
 				233AFB581D471CED00D17B20 /* ViewController.m in Sources */,
+				230480A61D47E3AD0039A1CA /* PlayerDetailsViewController.m in Sources */,
+				230480A31D47DA6A0039A1CA /* SetupViewController.m in Sources */,
 				233AFB551D471CED00D17B20 /* AppDelegate.m in Sources */,
+				2304809A1D47C77A0039A1CA /* Match.m in Sources */,
+				233AFB6D1D47267F00D17B20 /* Set.m in Sources */,
 				233AFB521D471CED00D17B20 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +338,7 @@
 				233AFB661D471CED00D17B20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
