@@ -20,14 +20,14 @@ typedef NS_ENUM(NSInteger, Position) {
 
 @property(strong, nonatomic) NSString *name;
 @property(nonatomic) NSInteger number;
-@property(nonatomic) Position *position;
+@property(nonatomic) Position position;
 @property(nonatomic, readonly) NSInteger digs;
 @property(nonatomic, readonly) NSInteger assists;
 @property(nonatomic, readonly) NSInteger kills;
 @property(nonatomic, readonly) NSInteger aces;
 
 
--(id)initWithName:(NSString*)name withNumber:(NSInteger)number withPosition:(Position*) position;
+-(id)initWithName:(NSString*)name withNumber:(NSInteger)number withPosition:(Position) position;
 
 -(void)addOneDig;
 -(void)subtractOneDig;
@@ -37,5 +37,7 @@ typedef NS_ENUM(NSInteger, Position) {
 -(void)subtractOneKill;
 -(void)addOneAce;
 -(void)subtractOneAce;
+
+-(NSString*) getPositionString;
 
 @end

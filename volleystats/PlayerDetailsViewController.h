@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Player.h"
 @class SetupViewController;
 
 @interface PlayerDetailsViewController : UIViewController
@@ -15,15 +16,21 @@
 @property (weak, nonatomic) IBOutlet UITextField *nameTextField;
 @property (weak, nonatomic) IBOutlet UITextField *numberTextField;
 
+@property (nonatomic) BOOL isAddPlayer;
+
 @property (weak, nonatomic) id delegate;
+
+- (void)setupWithPlayer:(Player*)player;
+- (void)setupAddPlayer;
 
 - (IBAction)positionSelected:(id)sender;
 - (IBAction)addPlayerButtonPressed:(id)sender;
+- (IBAction)cancelButtonPressed:(id)sender;
 
 @end
 
 @protocol PlayerDetails <NSObject>
 
-- (void) finishEditing;
+- (void) finishEditing:(BOOL)saveEdits;
 
 @end

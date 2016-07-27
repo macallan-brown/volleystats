@@ -10,6 +10,8 @@
 		2304809A1D47C77A0039A1CA /* Match.m in Sources */ = {isa = PBXBuildFile; fileRef = 230480991D47C77A0039A1CA /* Match.m */; };
 		230480A31D47DA6A0039A1CA /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230480A21D47DA6A0039A1CA /* SetupViewController.m */; };
 		230480A61D47E3AD0039A1CA /* PlayerDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230480A51D47E3AD0039A1CA /* PlayerDetailsViewController.m */; };
+		230480AC1D481CDA0039A1CA /* CurrentMatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 230480AB1D481CDA0039A1CA /* CurrentMatch.m */; };
+		230480AF1D482B2A0039A1CA /* RosterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 230480AE1D482B2A0039A1CA /* RosterTableViewCell.m */; };
 		233AFB521D471CED00D17B20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 233AFB511D471CED00D17B20 /* main.m */; };
 		233AFB551D471CED00D17B20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 233AFB541D471CED00D17B20 /* AppDelegate.m */; };
 		233AFB581D471CED00D17B20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 233AFB571D471CED00D17B20 /* ViewController.m */; };
@@ -27,6 +29,10 @@
 		230480A21D47DA6A0039A1CA /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetupViewController.m; path = ../SetupViewController.m; sourceTree = "<group>"; };
 		230480A41D47E3AD0039A1CA /* PlayerDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerDetailsViewController.h; sourceTree = "<group>"; };
 		230480A51D47E3AD0039A1CA /* PlayerDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerDetailsViewController.m; sourceTree = "<group>"; };
+		230480AA1D481CDA0039A1CA /* CurrentMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentMatch.h; sourceTree = "<group>"; };
+		230480AB1D481CDA0039A1CA /* CurrentMatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentMatch.m; sourceTree = "<group>"; };
+		230480AD1D482B2A0039A1CA /* RosterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RosterTableViewCell.h; sourceTree = "<group>"; };
+		230480AE1D482B2A0039A1CA /* RosterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RosterTableViewCell.m; sourceTree = "<group>"; };
 		233AFB4D1D471CED00D17B20 /* volleystats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = volleystats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		233AFB511D471CED00D17B20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		233AFB531D471CED00D17B20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +60,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		230480B01D482B3E0039A1CA /* BeforeView */ = {
+			isa = PBXGroup;
+			children = (
+				230480A11D47DA6A0039A1CA /* SetupViewController.h */,
+				230480A21D47DA6A0039A1CA /* SetupViewController.m */,
+				230480A41D47E3AD0039A1CA /* PlayerDetailsViewController.h */,
+				230480A51D47E3AD0039A1CA /* PlayerDetailsViewController.m */,
+				230480AE1D482B2A0039A1CA /* RosterTableViewCell.m */,
+				230480AD1D482B2A0039A1CA /* RosterTableViewCell.h */,
+			);
+			name = BeforeView;
+			sourceTree = "<group>";
+		};
 		233AFB441D471CED00D17B20 = {
 			isa = PBXGroup;
 			children = (
@@ -77,10 +96,9 @@
 				233AFB541D471CED00D17B20 /* AppDelegate.m */,
 				233AFB561D471CED00D17B20 /* ViewController.h */,
 				233AFB571D471CED00D17B20 /* ViewController.m */,
-				230480A11D47DA6A0039A1CA /* SetupViewController.h */,
-				230480A21D47DA6A0039A1CA /* SetupViewController.m */,
-				230480A41D47E3AD0039A1CA /* PlayerDetailsViewController.h */,
-				230480A51D47E3AD0039A1CA /* PlayerDetailsViewController.m */,
+				230480AA1D481CDA0039A1CA /* CurrentMatch.h */,
+				230480AB1D481CDA0039A1CA /* CurrentMatch.m */,
+				230480B01D482B3E0039A1CA /* BeforeView */,
 				233AFB6A1D47266900D17B20 /* MODEL */,
 				233AFB591D471CED00D17B20 /* Main.storyboard */,
 				233AFB5C1D471CED00D17B20 /* Assets.xcassets */,
@@ -186,7 +204,9 @@
 				233AFB581D471CED00D17B20 /* ViewController.m in Sources */,
 				230480A61D47E3AD0039A1CA /* PlayerDetailsViewController.m in Sources */,
 				230480A31D47DA6A0039A1CA /* SetupViewController.m in Sources */,
+				230480AC1D481CDA0039A1CA /* CurrentMatch.m in Sources */,
 				233AFB551D471CED00D17B20 /* AppDelegate.m in Sources */,
+				230480AF1D482B2A0039A1CA /* RosterTableViewCell.m in Sources */,
 				2304809A1D47C77A0039A1CA /* Match.m in Sources */,
 				233AFB6D1D47267F00D17B20 /* Set.m in Sources */,
 				233AFB521D471CED00D17B20 /* main.m in Sources */,

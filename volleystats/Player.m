@@ -21,7 +21,7 @@
 
 #pragma mark - Initialization Methods
 
--(id)initWithName:(NSString *)name withNumber:(NSInteger)number withPosition:(Position*)position {
+-(id)initWithName:(NSString *)name withNumber:(NSInteger)number withPosition:(Position)position {
     self.name = name;
     self.number = number;
     self.position = position;
@@ -60,6 +60,25 @@
     }
     
     return 0;
+}
+
+#pragma mark - Getters
+
+-(NSString*)getPositionString {
+    switch (self.position) {
+        case SETTER:
+            return @"Setter";
+        case OUTSIDE:
+            return @"Outside Hitter";
+        case MIDDLE:
+            return @"Middle Blocker";
+        case OPPOSITE:
+            return @"Opposite Hitter";
+        case LIBERO:
+            return @"Libero/Defensive Specialist";
+        default:
+            return @"Volleyball Player";
+    }
 }
 
 #pragma mark - Add/Subtract variables

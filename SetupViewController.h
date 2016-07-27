@@ -9,11 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "PlayerDetailsViewController.h"
 
-@interface SetupViewController : UIViewController<PlayerDetails>
+@interface SetupViewController : UIViewController<PlayerDetails, UITableViewDelegate, UITableViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UITableView *rosterTableView;
 @property (nonatomic) PlayerDetailsViewController *playerDetailViewController;
+@property (strong, nonatomic)Player *currentPlayer;
 
--(void)finishEditing;
+-(void)finishEditing:(BOOL)saveEdits;
 
 @end
